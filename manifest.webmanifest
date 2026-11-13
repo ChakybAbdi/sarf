@@ -1,0 +1,19 @@
+{
+  "name": "Sarf — Le cours du dinar, square et officiel",
+  "short_name": "Sarf",
+  "description": "Euro, dollar, livre face au dinar algérien : marché parallèle (square) et taux officiel, convertisseur, historique, alertes.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f1e6",
+  "theme_color": "#C03E1D",
+  "categories": ["finance", "utilities", "news"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

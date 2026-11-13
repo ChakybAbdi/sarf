@@ -1,0 +1,130 @@
+{
+  "updated": "2026-07-08T19:54:13.514Z",
+  "note": "Taux indicatifs agrégés de sources publiques. Le marché parallèle varie selon la ville et la négociation.",
+  "sources": [
+    {
+      "id": "exchangedz",
+      "name": "ExchangeDZ (Square Port-Saïd)",
+      "url": "https://www.exchangedz.com"
+    },
+    {
+      "id": "observalgerie",
+      "name": "ObservAlgérie",
+      "url": "https://observalgerie.com"
+    },
+    {
+      "id": "boa",
+      "name": "Banque d'Algérie",
+      "url": "https://www.bank-of-algeria.dz/taux-de-change-journalier/"
+    }
+  ],
+  "rates": {
+    "EUR": {
+      "parallel": {
+        "buy": 276.33,
+        "sell": 278.67,
+        "asOf": "2026-07-08",
+        "src": "exchangedz"
+      },
+      "official": {
+        "mid": 151.97,
+        "asOf": "2026-07-08",
+        "src": "boa"
+      }
+    },
+    "USD": {
+      "parallel": {
+        "buy": 236.67,
+        "sell": 239,
+        "asOf": "2026-07-08",
+        "src": "exchangedz"
+      },
+      "official": {
+        "mid": 133.12,
+        "asOf": "2026-07-08",
+        "src": "boa"
+      }
+    },
+    "GBP": {
+      "parallel": {
+        "buy": 311,
+        "sell": 314.33,
+        "asOf": "2026-07-08",
+        "src": "exchangedz"
+      },
+      "official": {
+        "mid": 177.83,
+        "asOf": "2026-07-08",
+        "src": "boa"
+      }
+    },
+    "CAD": {
+      "parallel": {
+        "buy": 168.17,
+        "sell": 170,
+        "asOf": "2026-07-08",
+        "src": "exchangedz"
+      },
+      "official": {
+        "mid": 93.79,
+        "asOf": "2026-07-08",
+        "src": "boa"
+      }
+    }
+  },
+  "ranges": {
+    "EUR": {
+      "d30": [
+        276,
+        278.17
+      ],
+      "d90": [
+        273.04,
+        279.41
+      ]
+    }
+  },
+  "history": {
+    "EUR": [
+      {
+        "d": "2026-07-06",
+        "buy": 276,
+        "sell": 278.5
+      },
+      {
+        "d": "2026-07-08",
+        "buy": 276.33,
+        "sell": 278.67
+      }
+    ],
+    "USD": [
+      {
+        "d": "2026-06-25",
+        "sell": 235.5
+      },
+      {
+        "d": "2026-07-01",
+        "sell": 237.67
+      },
+      {
+        "d": "2026-07-08",
+        "sell": 239,
+        "buy": 236.67
+      }
+    ],
+    "GBP": [
+      {
+        "d": "2026-07-08",
+        "buy": 311,
+        "sell": 314.33
+      }
+    ],
+    "CAD": [
+      {
+        "d": "2026-07-08",
+        "buy": 168.17,
+        "sell": 170
+      }
+    ]
+  }
+}

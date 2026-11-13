@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sarf صرف — Euro dinar aujourd'hui : square et officiel</title>
+  <meta name="description" content="Le cours du jour de l'euro, du dollar et de la livre face au dinar algérien : marché parallèle (square Port-Saïd) et taux officiel Banque d'Algérie, convertisseur honnête, historique, alertes.">
+  <meta name="theme-color" content="#C03E1D">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta property="og:title" content="Sarf صرف — L'euro au square aujourd'hui">
+  <meta property="og:description" content="Square vs Banque d'Algérie, chaque jour. Sans popups, sans blabla.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="sheet">
+  <header class="masthead">
+    <div class="masthead-row">
+      <h1 id="masthead-title">Sarf</h1>
+      <button id="lang-btn" class="lang-btn">العربية</button>
+    </div>
+    <p class="sub" id="masthead-sub">Le cours du jour</p>
+    <p class="stamp" id="stamp"></p>
+  </header>
+
+  <div id="alert-banner"></div>
+
+  <section class="hero" id="hero"></section>
+
+  <hr class="dbl">
+  <section>
+    <h2 class="sec" id="gap-title">L’écart</h2>
+    <div id="gap-inner"></div>
+  </section>
+
+  <hr class="dbl">
+  <section>
+    <h2 class="sec" id="board-title">Toutes les devises</h2>
+    <div id="board-inner"></div>
+  </section>
+
+  <hr class="dbl">
+  <section>
+    <h2 class="sec" id="conv-title">Convertisseur</h2>
+    <div id="conv-inner"></div>
+  </section>
+
+  <hr class="dbl">
+  <section>
+    <h2 class="sec" id="hist-title">Historique</h2>
+    <div id="chart-inner"></div>
+  </section>
+
+  <hr class="dbl">
+  <section>
+    <h2 class="sec" id="alerts-title">Alertes</h2>
+    <p class="alerts-sub" id="alerts-sub"></p>
+    <div id="alerts-inner"></div>
+  </section>
+
+  <hr class="dbl">
+  <footer class="sources">
+    <h2 class="sec" id="sources-title">Sources</h2>
+    <div id="sources-inner"></div>
+    <p class="legal" id="legal"></p>
+    <p class="updated" id="updated"></p>
+  </footer>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
