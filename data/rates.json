@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T00:56:18.467Z",
+  "updated": "2026-11-17T16:21:36.713Z",
   "note": "Taux indicatifs agrégés de sources publiques. Le marché parallèle varie selon la ville et la négociation.",
   "sources": [
     {
@@ -27,7 +27,7 @@
         "src": "exchangedz"
       },
       "official": {
-        "mid": 151.04,
+        "mid": 150.82,
         "asOf": "2026-11-17",
         "src": "boa"
       }
@@ -40,7 +40,7 @@
         "src": "exchangedz"
       },
       "official": {
-        "mid": 137.03,
+        "mid": 137.01,
         "asOf": "2026-11-17",
         "src": "boa"
       }
@@ -48,12 +48,12 @@
     "GBP": {
       "parallel": {
         "buy": 315.33,
-        "sell": 318.67,
+        "sell": 319,
         "asOf": "2026-11-17",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 181.04,
+        "mid": 180.82,
         "asOf": "2026-11-17",
         "src": "boa"
       }
@@ -61,12 +61,12 @@
     "CAD": {
       "parallel": {
         "buy": 171.67,
-        "sell": 173.67,
+        "sell": 173.83,
         "asOf": "2026-11-17",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 96,
+        "mid": 95.8,
         "asOf": "2026-11-17",
         "src": "boa"
       }
@@ -191,7 +191,7 @@
       {
         "d": "2026-11-17",
         "buy": 315.33,
-        "sell": 318.67
+        "sell": 319
       }
     ],
     "CAD": [
@@ -223,7 +223,7 @@
       {
         "d": "2026-11-17",
         "buy": 171.67,
-        "sell": 173.67
+        "sell": 173.83
       }
     ]
   }
