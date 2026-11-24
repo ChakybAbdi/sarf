@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:36:11.335Z",
+  "updated": "2026-11-24T18:05:54.107Z",
   "note": "Taux indicatifs agrégés de sources publiques. Le marché parallèle varie selon la ville et la négociation.",
   "sources": [
     {
@@ -23,51 +23,51 @@
       "parallel": {
         "buy": 275,
         "sell": 277,
-        "asOf": "2026-11-23",
+        "asOf": "2026-11-24",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 150.71,
-        "asOf": "2026-11-23",
+        "mid": 150.04,
+        "asOf": "2026-11-24",
         "src": "boa"
       }
     },
     "USD": {
       "parallel": {
-        "buy": 244,
-        "sell": 246.33,
-        "asOf": "2026-11-23",
+        "buy": 244.83,
+        "sell": 247.33,
+        "asOf": "2026-11-24",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 137,
-        "asOf": "2026-11-23",
+        "mid": 137.45,
+        "asOf": "2026-11-24",
         "src": "boa"
       }
     },
     "GBP": {
       "parallel": {
-        "buy": 315.33,
-        "sell": 319,
-        "asOf": "2026-11-23",
+        "buy": 315.67,
+        "sell": 318.67,
+        "asOf": "2026-11-24",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 179.86,
-        "asOf": "2026-11-23",
+        "mid": 179.39,
+        "asOf": "2026-11-24",
         "src": "boa"
       }
     },
     "CAD": {
       "parallel": {
-        "buy": 171.83,
-        "sell": 173.83,
-        "asOf": "2026-11-23",
+        "buy": 172,
+        "sell": 174,
+        "asOf": "2026-11-24",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 95.68,
-        "asOf": "2026-11-23",
+        "mid": 95.77,
+        "asOf": "2026-11-24",
         "src": "boa"
       }
     }
@@ -150,6 +150,11 @@
         "d": "2026-11-23",
         "buy": 275,
         "sell": 277
+      },
+      {
+        "d": "2026-11-24",
+        "buy": 275,
+        "sell": 277
       }
     ],
     "USD": [
@@ -220,6 +225,11 @@
         "d": "2026-11-23",
         "buy": 244,
         "sell": 246.33
+      },
+      {
+        "d": "2026-11-24",
+        "buy": 244.83,
+        "sell": 247.33
       }
     ],
     "GBP": [
@@ -282,6 +292,11 @@
         "d": "2026-11-23",
         "buy": 315.33,
         "sell": 319
+      },
+      {
+        "d": "2026-11-24",
+        "buy": 315.67,
+        "sell": 318.67
       }
     ],
     "CAD": [
@@ -344,6 +359,11 @@
         "d": "2026-11-23",
         "buy": 171.83,
         "sell": 173.83
+      },
+      {
+        "d": "2026-11-24",
+        "buy": 172,
+        "sell": 174
       }
     ]
   }
