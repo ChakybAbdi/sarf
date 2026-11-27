@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:06:15.874Z",
+  "updated": "2026-11-27T16:53:43.429Z",
   "note": "Taux indicatifs agrégés de sources publiques. Le marché parallèle varie selon la ville et la négociation.",
   "sources": [
     {
@@ -27,7 +27,7 @@
         "src": "exchangedz"
       },
       "official": {
-        "mid": 150.54,
+        "mid": 150.56,
         "asOf": "2026-11-27",
         "src": "boa"
       }
@@ -40,7 +40,7 @@
         "src": "exchangedz"
       },
       "official": {
-        "mid": 137.14,
+        "mid": 137.2,
         "asOf": "2026-11-27",
         "src": "boa"
       }
@@ -53,20 +53,20 @@
         "src": "exchangedz"
       },
       "official": {
-        "mid": 179.82,
+        "mid": 180.03,
         "asOf": "2026-11-27",
         "src": "boa"
       }
     },
     "CAD": {
       "parallel": {
-        "buy": 172.33,
+        "buy": 172.17,
         "sell": 174.33,
         "asOf": "2026-11-27",
         "src": "exchangedz"
       },
       "official": {
-        "mid": 96.45,
+        "mid": 96.39,
         "asOf": "2026-11-27",
         "src": "boa"
       }
@@ -422,7 +422,7 @@
       },
       {
         "d": "2026-11-27",
-        "buy": 172.33,
+        "buy": 172.17,
         "sell": 174.33
       }
     ]
